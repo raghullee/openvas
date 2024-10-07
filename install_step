@@ -1,25 +1,18 @@
-VMware Workstation Player/Pro:
-https://files.greenbone.net/download/delivery/website-trials-22.04-abdk-greenbone/Greenbone-Enterprise-TRIAL-22.04.22-VMware-Workstation.ova
+It looks like you're sharing the steps for installing OpenVAS (Greenbone Vulnerability Manager) using either VMware or Oracle VirtualBox. This is a great guide for those wanting to set up a vulnerability scanner for security assessments.
 
-SHA256 Checksum:
-d25cc7980d59782caab62f15a2cda9e08fd7ae26419c07306a49ab610038bea5
+Here’s a quick summary of the two options:
 
--
-
-Oracle VirtualBox:
-https://files.greenbone.net/download/delivery/website-trials-22.04-abdk-greenbone/Greenbone-Enterprise-TRIAL-22.04.22-VirtualBox.ova
-
-
-Steps to install OPENVAS
-
-1.Download the file using above link:
-2.Install VirtualBox on your computer if you haven't already. You can download it from the official website: https://www.virtualbox.org/wiki/Downloads
-3.Once VirtualBox is installed, open it and click on "File" -> "Import Appliance".
-4.In the "Import Appliance" window, click on "Choose" and select the OpenVAS VirtualBox image file that you downloaded in step 1.
-5.Click on "Import" to import the OpenVAS VirtualBox image into VirtualBox.
-6.After the import is complete, you should see the OpenVAS VM listed in the VirtualBox main window.
-7.Select the OpenVAS VM and click on "Start" to boot it up.
-8.Once the VM is booted up, you can access the OpenVAS web interface by opening a web browser on your host machine and navigating to the IP address of the OpenVAS VM. The default IP address is usually 192.168.56.101, but it may vary depending on your network configuration.
-9.In the OpenVAS web interface, you can create a new user account and log in to start using OpenVAS for vulnerability scanning.
-
-Happy scanning!!!
+1. VMware Workstation Player/Pro
+Link: Greenbone Enterprise TRIAL VMware Workstation OVA
+Checksum: d25cc7980d59782caab62f15a2cda9e08fd7ae26419c07306a49ab610038bea5
+2. Oracle VirtualBox
+Link: Greenbone Enterprise TRIAL VirtualBox OVA
+Steps to Install OpenVAS (for VirtualBox):
+Download the VirtualBox image from the link provided.
+Install VirtualBox if it's not already installed. Download VirtualBox.
+Open VirtualBox, go to File -> Import Appliance.
+Select the downloaded OpenVAS VirtualBox image.
+Click on Import to load the image into VirtualBox.
+Start the OpenVAS VM after the import.
+Access the OpenVAS web interface using the VM’s IP address (default: 192.168.56.101).
+Create a new user and start scanning.
